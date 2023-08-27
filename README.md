@@ -2,9 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Start the project
 
-In the project directory, you can run:
+    --bash
+     cd run-your-gpt
+     
+In the project directory,run:
 
 ### `npm start`
 
@@ -13,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the Login page.
 
 ## Login Instructions:
     Default credentials:
-    
+
         Username: user1
         Password: pass1
 
