@@ -48,13 +48,13 @@ export default function ChatbotApp(){
 
   steps[0] = {
     id:'Greet',
-    message:'Hello, Welcome to our platform. How Can I help you?',
+    message:'Hello, Welcome to our platform. How Can I help you? Please click on the red button below to chat with us.',
     trigger:String(count),
   }
 
 
   while(count<2*message_limit+1){
-    var Message = 'Hi I understand your issue as ' + '{previousValue}' +'. Be patient, it will be resolved soon.';
+    var Message = 'Hi I understand your issue.'+' Be patient, it will be resolved soon.';
     // var Message = response('{previousValue}');
 
     steps[count] = {

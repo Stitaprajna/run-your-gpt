@@ -8,8 +8,14 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+
 Open [http://localhost:3000](http://localhost:3000) to view the Login page.
+
+\Login Instructions:
+    Default credentials:
+        Username: user1
+        Password: pass1
+
 
 Open [http://localhost:3000/Chatbot](http://localhost:3000/Chatbot) for viewing the chatbot.
 
