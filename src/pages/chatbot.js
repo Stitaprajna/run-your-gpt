@@ -30,7 +30,7 @@ import { ThemeProvider } from 'styled-components';
 
 // }
 
-// Axios API:
+// Axios API: TODO
 // function response(){
 
 // }
@@ -54,7 +54,7 @@ export default function ChatbotApp(){
 
 
   while(count<2*message_limit+1){
-    var Message = 'Hi ' + '{previousValue}';
+    var Message = 'Hi I understand your issue as ' + '{previousValue}' +'. Be patient, it will be resolved soon.';
     // var Message = response('{previousValue}');
 
     steps[count] = {
@@ -81,6 +81,7 @@ export default function ChatbotApp(){
     };
   
   }
+
   // localStorage.setItem("steps", JSON.stringify(steps));
   // console.log(steps);
   // console.log(messageArray);
